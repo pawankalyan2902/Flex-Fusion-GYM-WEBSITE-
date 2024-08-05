@@ -1,0 +1,125 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/05/2020 10:01
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../fonts/Flaticon.eot");
+  src: url("../../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../../fonts/Flaticon.woff2") format("woff2"),
+       url("../../fonts/Flaticon.woff") format("woff"),
+       url("../../fonts/Flaticon.ttf") format("truetype"),
+       url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-exercise:before { content: "\f100"; }
+.flaticon-weight:before { content: "\f101"; }
+.flaticon-exercise-1:before { content: "\f102"; }
+.flaticon-barbell:before { content: "\f103"; }
+.flaticon-gym:before { content: "\f104"; }
+.flaticon-weightlifter:before { content: "\f105"; }
+.flaticon-sport:before { content: "\f106"; }
+.flaticon-dumbbell:before { content: "\f107"; }
+.flaticon-exercise-2:before { content: "\f108"; }
+.flaticon-strong:before { content: "\f109"; }
+.flaticon-strongman:before { content: "\f10a"; }
+.flaticon-gym-1:before { content: "\f10b"; }
+.flaticon-abs:before { content: "\f10c"; }
+.flaticon-exercise-3:before { content: "\f10d"; }
+.flaticon-yoga:before { content: "\f10e"; }
+.flaticon-physiotherapy:before { content: "\f10f"; }
+.flaticon-wellness:before { content: "\f110"; }
+.flaticon-leaf:before { content: "\f111"; }
+.flaticon-heart:before { content: "\f112"; }
+.flaticon-lotus:before { content: "\f113"; }
+.flaticon-lotus-position:before { content: "\f114"; }
+.flaticon-yoga-1:before { content: "\f115"; }
+.flaticon-yoga-2:before { content: "\f116"; }
+.flaticon-stretch:before { content: "\f117"; }
+.flaticon-seat:before { content: "\f118"; }
+.flaticon-yoga-3:before { content: "\f119"; }
+.flaticon-yoga-4:before { content: "\f11a"; }
+.flaticon-yoga-pose:before { content: "\f11b"; }
+.flaticon-yoga-5:before { content: "\f11c"; }
+.flaticon-pillow:before { content: "\f11d"; }
+.flaticon-yoga-6:before { content: "\f11e"; }
+.flaticon-chakra:before { content: "\f11f"; }
+.flaticon-tank-top:before { content: "\f120"; }
+.flaticon-sportswear:before { content: "\f121"; }
+.flaticon-lockers:before { content: "\f122"; }
+.flaticon-shower:before { content: "\f123"; }
+.flaticon-showers:before { content: "\f124"; }
+.flaticon-stationary-bike:before { content: "\f125"; }
+.flaticon-water:before { content: "\f126"; }
+.flaticon-bottle:before { content: "\f127"; }
+.flaticon-left-quote:before { content: "\f128"; }
+.flaticon-right-quote:before { content: "\f129"; }
+.flaticon-roundabout:before { content: "\f12a"; }
+.flaticon-back:before { content: "\f12b"; }
+.flaticon-right-arrow:before { content: "\f12c"; }
+.flaticon-loupe:before { content: "\f12d"; }
+.flaticon-user:before { content: "\f12e"; }
+.flaticon-obesity:before { content: "\f12f"; }
+.flaticon-stationary-bike-1:before { content: "\f130"; }
+.flaticon-dumbbell-1:before { content: "\f131"; }
+.flaticon-running-shoes:before { content: "\f132"; }
+.flaticon-fruit:before { content: "\f133"; }
+.flaticon-proteins:before { content: "\f134"; }
+.flaticon-park:before { content: "\f135"; }
+.flaticon-anatomy:before { content: "\f136"; }
+.flaticon-dumbbell-2:before { content: "\f137"; }
+.flaticon-smartwatch:before { content: "\f138"; }
+.flaticon-cardiogram:before { content: "\f139"; }
+.flaticon-apple:before { content: "\f13a"; }
+.flaticon-dance:before { content: "\f13b"; }
+.flaticon-smartwatch-1:before { content: "\f13c"; }
+.flaticon-energy-drink:before { content: "\f13d"; }
+.flaticon-kettlebell:before { content: "\f13e"; }
+.flaticon-placeholder:before { content: "\f13f"; }
+.flaticon-treadmill:before { content: "\f140"; }
+.flaticon-machine:before { content: "\f141"; }
+.flaticon-treadmill-1:before { content: "\f142"; }
+.flaticon-weight-1:before { content: "\f143"; }
+.flaticon-jumping:before { content: "\f144"; }
+.flaticon-pec-deck:before { content: "\f145"; }
+.flaticon-machine-1:before { content: "\f146"; }
+.flaticon-gym-equipment:before { content: "\f147"; }
+.flaticon-weight-2:before { content: "\f148"; }
+.flaticon-dumbbells:before { content: "\f149"; }
+.flaticon-dumbbells-1:before { content: "\f14a"; }
+.flaticon-boxing-gloves:before { content: "\f14b"; }
+.flaticon-gym-2:before { content: "\f14c"; }
+.flaticon-yoga-7:before { content: "\f14d"; }
+.flaticon-mat:before { content: "\f14e"; }
+.flaticon-goal:before { content: "\f14f"; }
+.flaticon-workout:before { content: "\f150"; }
+.flaticon-gym-3:before { content: "\f151"; }
+.flaticon-gym-4:before { content: "\f152"; }
+.flaticon-instagram:before { content: "\f153"; }
+.flaticon-facebook:before { content: "\f154"; }
+.flaticon-youtube:before { content: "\f155"; }
+.flaticon-user-1:before { content: "\f156"; }
+.flaticon-twitter:before { content: "\f157"; }
+.flaticon-linkedin:before { content: "\f158"; }
+.flaticon-pin:before { content: "\f159"; }
+.flaticon-heart-1:before { content: "\f15a"; }
+.flaticon-bell:before { content: "\f15b"; }
+.flaticon-like:before { content: "\f15c"; }
+.flaticon-partner:before { content: "\f15d"; }
+.flaticon-photograph:before { content: "\f15e"; }

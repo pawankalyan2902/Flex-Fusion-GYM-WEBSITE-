@@ -1,0 +1,101 @@
+main
+{
+    width: 70%;
+    margin:auto;
+}
+#sign_up_header
+{
+    text-align: center;
+    color: #5a5a5a;
+    font-weight: 700;
+  
+}
+
+#input-error {
+    padding: 0.5rem;
+    background-color: rgb(251, 217, 217);
+    color: rgb(144, 33, 33);
+    border-radius: 4px;
+    text-align: center;
+    width: 60%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+#sign_up_form
+{
+    width: 20%;
+    margin: auto;
+    background-color: #060604;
+    padding: 2rem 3rem;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+#sign_up_form li
+{
+    display: flex;
+    flex-direction: column;
+    margin:2rem;
+}
+
+#sign_up_form label{
+    margin-bottom: 0.8rem;
+}
+
+
+input
+{
+    padding: 0.4rem;
+    border-radius: 0.1rem;
+    border: transparent;
+    font-size: larger;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: #060604;
+}
+
+input:focus{
+    background-color:whitesmoke ;
+    color: black;
+    outline: none;
+}
+
+#sign_up_header
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#sign_up_form button
+ {
+    background-color: #e9ecef;
+    color: #18191c;
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+#sign_up_form li a{    
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+#sign_up_form li a:hover{
+    color:rgb(255, 174, 0);
+}
+
+#log
+{
+    margin-bottom: 0px;
+}
+
+hr{
+    background-color: rgb(175 120 0);
+    height: 1px;
+}

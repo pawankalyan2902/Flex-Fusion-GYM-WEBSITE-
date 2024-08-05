@@ -1,0 +1,46 @@
+<%-include("includes/head.ejs",{title:"flexfusion home"})%>
+    <link rel="stylesheet" href="sign_up.css">
+
+  <body>
+    <%-include("includes/header.ejs")%>
+    <% if (signup_data.error) { %>
+      <p id="input-error"><%= signup_data.error_message %></p>
+    <% } %>
+          <h1 id="sign_up_header">SIGN UP</h1>
+                        <form action="/sign_up_form" method="post">
+                            <ul id="sign_up_form">
+                                <li>
+                                    <label for="email">E-Mail</label>
+                                    <input type="email" id="email" name="email" value="<%=signup_data.email %>">
+                                </li>
+                                <li>
+                                    <label for="Confirm_Email">Confirm Email</label>
+                                    <input type="email" id="Confirm_Email" name="confirm_email"
+                                        value="<%=signup_data.confirm_email %>">
+                                </li>
+                                <li>
+                                    <label for="Passwrod">Password</label>
+                                    <input type="password" id="Password" name="password"
+                                        value="<%=signup_data.password %>">
+                                </li>
+                                <hr>
+                                <li>
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" value="<%=signup_data.name %>">
+                                </li>
+                                <li>
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" name="city" value="<%=signup_data.city %>">
+                                </li>
+                                
+                                <li>
+                                    <button type="submit">Create Account</button>
+                                </li>
+                                <li id="log">
+                                    <p><a href="">Login instead</a></p>
+                                </li>
+                            </ul>
+                        </form>
+            </main>
+
+    </body>

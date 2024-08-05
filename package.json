@@ -1,0 +1,20 @@
+{
+  "name": "flexfusion",
+  "version": "1.0.0",
+  "description": "Body building website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sudarshini",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongodb-session": "^5.0.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0"
+  }
+}
